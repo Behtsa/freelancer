@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:400,700" rel="stylesheet">
 	</head>
 	<body>
+    <!--Header where we found the menu <a> -->
     <header>
   		<div class="letter-color">
         <p>START BOOTSTRAP</p>
@@ -18,14 +19,16 @@
   			<a href="#">CONTACT</a>
   		</div>
     </header>
+    <!--main title and image-->
 		<section id="intro" class="letter-color">
 			<img src="./assets/images/profile.png">
 			<p id="title" class="letter-color">START BOOTSTRAP</p>
 			<div class="star">
 				<i class="fa fa-star fa-2x" aria-hidden="true"></i>
 			</div>
-			<p class="letter_lato">Web developer - Graphic Artist - User Experience Designer</p>
+			<p class="letter_lato lato">Web developer - Graphic Artist - User Experience Designer</p>
 		</section>
+    <!--Portfolio images with display inline-block-->
 		<section id="portfolio">
       <h1>PORTFOLIO</h1>
 			<div class="star">
@@ -40,52 +43,60 @@
         <img src="./assets/images/portfolio/submarine.png">
       </article>
 		</section>
+    <!--About with <p> text align left-->
     <section id="about">
-      <h1 class="letter-color">ABOUT</h1>
+      <h1 class="letter-color montserrat">ABOUT</h1>
       <div class="star letter-color">
         <i class="fa fa-star fa-2x" aria-hidden="true"></i>
       </div>
       <div id="text">
-        <p class="letter_lato">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-        <p class="letter_lato">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+        <p class="letter_lato lato">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+        <p class="letter_lato lato">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
       </div>
-      <button class="letter_lato">Download Theme</button>
+      <button class="letter_lato lato">Download Theme</button>
     </section>
+    <!--Contact form with input and placeholder-->
     <section id="contact_me">
-      <h1>CONTACT ME</h1>
+      <h1 class="montserrat">CONTACT ME</h1>
       <div class="star">
-        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star fa-2x" aria-hidden="true"></i>
       </div>
-      <form>
-        <input type="text" name="name" placeholder="Name: " />
+      <form class="form lato">
+        <input class="lato" type="text" name="name" placeholder="Name " />
         <br>
-        <!--<label for="email">Email</label>-->
-        <input type="email" name="email" placeholder="Email:" />
+        <input class="lato" type="email" name="email" placeholder="Email Address" />
         <br>
-        <!--<label for="phone_number">Phone number</label>-->
-        <input type="tel" name="phone_number" placeholder="Phone" />
+        <input class="lato" type="tel" name="phone_number" placeholder="Phone Number" />
         <br>
-        <!--<label for="message">Message</label>-->
-        <textarea name="message" placeholder="Mensaje"></textarea>
+        <!--<label for="message">Message</label>
+        <textarea class="lato" name="message" placeholder="Mensaje"></textarea>-->
+        <input class="lato" type="text" name="message" placeholder="Message" />
         <br>
         <button>Send</button>
       </form>
     </section>
-    <footer>
-      <div id="location">
+    <!--Final information from the client-->
+    <section id="about_freelancer">
+      <div class="lato" id="location">
+        <p>LOCATION</p>
         <p>3481 Melrose Place</p>
         <p>Beverly Hills, CA 90210</p>
       </div>
-      <div id="around_the_web">
-        <i class="fa fa-facebook" aria-hidden="true"></i>
+      <div class="lato" id="around_the_web">
+        <p>AROUND THE WEB</p>
+        <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
         <i class="fa fa-google-plus-official" aria-hidden="true"></i>
-        <i class="fa fa-twitter-square" aria-hidden="true"></i>
-        <i class="fa fa-linkedin" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-dribbble fa-2x" aria-hidden="true"></i>
       </div>
-      <div id="about_free_lancer">
+      <div class="lato" id="about_free_lancer">
+        <p>ABOUT FREELANCER</p>
         <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap.</a></p>
       </div>
-      <p>Copyright &#169; Your Website 2017</p>
+    </section>
+    <footer>
+      <p class="lato">Copyright &#169; Your Website 2017</p>
     </footer>
 	</body>
 </html>
