@@ -4,29 +4,34 @@
 		<title>Freelancer</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
-		<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+		<!--<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:400,700" rel="stylesheet">
 	</head>
 	<body>
-		<nav>
-			<ul>
-				<li>START BOOTSTRAP</li>
-				<li>PORTFOLIO</li>
-				<li>ABOUT</li>
-				<li>CONTACT</li>
-			</ul>
-		</nav>
-		<section id="intro">
+    <header>
+  		<div class="letter-color">
+        <p>START BOOTSTRAP</p>
+      </div>
+      <nav class="letter-color">
+  			<ul>
+  				<li>PORTFOLIO</li>
+  				<li>ABOUT</li>
+  				<li>CONTACT</li>
+  			</ul>
+  		</nav>
+    </header>
+		<section id="intro" class="letter-color">
 			<img src="./assets/images/profile.png">
-			<header>START BOOTSTRAP</header>
-			<div id="star">
-				<i class="fa fa-star" aria-hidden="true"></i>
+			<p id="title" class="letter-color">START BOOTSTRAP</p>
+			<div class="star">
+				<i class="fa fa-star fa-2x" aria-hidden="true"></i>
 			</div>
 			<p>Web developer - Graphic Artist - User Experience Designer</p>
 		</section>
 		<section id="portfolio">
       <h1>PORTFOLIO</h1>
-			<div id="star">
-				<i class="fa fa-star" aria-hidden="true"></i>
+			<div class="star">
+				<i class="fa fa-star fa-2x" aria-hidden="true"></i>
 			</div>
       <article>
         <img src="./assets/images/portfolio/cabin.png">
@@ -38,8 +43,9 @@
       </article>
 		</section>
     <section id="about">
-      <div id="star">
-        <i class="fa fa-star" aria-hidden="true"></i>
+      <h1 class="letter-color">ABOUT</h1>
+      <div class="star" class="letter-color">
+        <i class="fa fa-star fa-2x" aria-hidden="true"></i>
       </div>
       <div>
         <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
@@ -48,7 +54,7 @@
       <button>Download Theme</button>
     </section>
     <section id="contact_me">
-      <div id="star">
+      <div class="star">
         <i class="fa fa-star" aria-hidden="true"></i>
       </div>
       <form>
